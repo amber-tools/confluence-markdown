@@ -21,7 +21,7 @@
       "environmentVariables": [
         {
           "name": "AMBER_CONFLUENCE_URL",
-          "description": "Base URL of your Confluence Server or Data Center, e.g. https://wiki.example.com. Optional if set in ~/.config/amber/config.toml",
+          "description": "Base URL of your Confluence Server or Data Center, for example https://wiki.example.com (optional when set in ~/.config/amber/config.toml)",
           "format": "string",
           "isRequired": false
         },

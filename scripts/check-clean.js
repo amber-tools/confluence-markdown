@@ -26,6 +26,9 @@ const ALLOWED_HOSTS = [
   "example.com", "example.org", "example.net",
   "localhost", "127.0.0.1",
   "github.com", "raw.githubusercontent.com", "www.npmjs.com", "npmjs.com",
+  "registry.npmjs.org",
+  /* directories that list this server */
+  "glama.ai",
   "atlassian.com", "developer.atlassian.com", "confluence.atlassian.com",
   "opensource.org", "modelcontextprotocol.io", "nodejs.org",
   "img.shields.io",
