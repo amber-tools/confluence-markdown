@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.amber-tools/confluence-markdown",
+  "title": "amber-confluence",
+  "description": "Edit self-hosted Confluence (Server, Data Center) as Markdown. Macros come back byte for byte.",
+  "websiteUrl": "https://amber.pm",
+  "repository": {
+    "url": "https://github.com/amber-tools/confluence-markdown",
+    "source": "github"
+  },
+  "version": "0.2.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "amber-confluence",
+      "version": "0.2.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "AMBER_CONFLUENCE_URL",
+          "description": "Base URL of your Confluence Server or Data Center, e.g. https://wiki.example.com. Optional if set in ~/.config/amber/config.toml",
+          "format": "string",
+          "isRequired": false
+        },
+        {
+          "name": "AMBER_CONFLUENCE_USER",
+          "description": "Your Confluence username. Leave out when using a personal access token",
+          "format": "string",
+          "isRequired": false
+        },
+        {
+          "name": "AMBER_CONFLUENCE_TOKEN",
+          "description": "Personal access token (Data Center 7.9+). Prefer the OS keychain; see the README",
+          "format": "string",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
