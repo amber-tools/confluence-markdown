@@ -8,21 +8,17 @@ their credential yourself.
 Node 18 or newer. No other dependencies.
 
 ```bash
-npm install -g amber-confluence
+npm install -g github:amber-tools/confluence-markdown
 ```
 
-Check the version:
+This installs the current release straight from the repository. Check the version:
 
 ```bash
 npm ls -g amber-confluence
 ```
 
-It must be 0.2.0 or newer. If npm still serves an older one, install from the
-repository instead:
-
-```bash
-npm install -g github:amber-tools/confluence-markdown
-```
+It must be 0.2.0 or newer. Do not install from the npm registry until it serves
+0.2.0 (`npm view amber-confluence version`): 0.1.0 there can lose tables on publish.
 
 ## 2. Point it at the instance
 
