@@ -2,6 +2,16 @@
 name: amber-confluence
 description: Read and edit pages on a self-hosted Confluence (Server or Data Center) as Markdown without breaking macros, panels, layouts or attachments. Use when the user gives a Confluence page id or URL on their own domain (not *.atlassian.net) and asks to read, summarize, fix, update or rewrite the page, or when the confluence_pull, confluence_push, confluence_replace or confluence_status tools are available. Covers setup of the amber-confluence MCP server and CLI, safe editing around opaque block markers, and what to do when a publish is refused. Not for Confluence Cloud.
 license: MIT
+version: 1.0.0
+summary: Lets your agent read and edit self-hosted Confluence (Server and Data Center) pages as Markdown. Macros, panels, layouts and attachments come back byte for byte, and publishing over someone else's edit is refused.
+tags: [confluence, confluence-data-center, self-hosted, atlassian, markdown, mcp, documentation, wiki]
+keywords: [confluence server, confluence data center, edit confluence with ai, confluence markdown, confluence mcp]
+use_cases:
+  - Fix a number or a sentence on a Confluence page by asking your agent
+  - Rewrite or restructure a whole page without breaking its macros
+  - Summarize a self-hosted Confluence page as clean Markdown
+  - Check whether your copy of a page is out of date before editing
+docs_url: https://github.com/amber-tools/confluence-markdown
 ---
 
 # amber-confluence
